@@ -8,7 +8,7 @@
 Additional description about the project and its features.
 
 # Screenshots
-![WEBPACK IN ACTION]()
+![WEBPACK IN ACTION](./webpack-init.png)
 
 
 ## Built With
