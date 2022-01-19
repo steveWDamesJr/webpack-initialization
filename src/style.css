@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'Branda';
+  src: url('./Branda-yolq.ttf') format('ttf'),
+    url('./Guazhiru-3gPz.ttf') format('ttf');
+  font-weight: 600;
+  font-style: normal;
+}
+
+
+
+.hello {
+  color: black;
+  background: url('./popup-github.png');
+  font-family: 'Branda';
+  font-size: 1.5em;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+body {
+  background: url('./cap-background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
