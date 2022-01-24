@@ -4,14 +4,15 @@ import Github from './popup-github.png';
 import House from './cap-background.jpg';
 import Data from './data.xml';
 import Notes from './data.csv';
+import printMe from './print.js';
 // No warning
 //import data from './data.json';
 // Warning shown, this is not allowed by the spec.
 //import { foo } from './data.json';
 
-function printMe() {
-  console.log('I get called from print.js!');
-}
+// function printMe() {
+//   console.log('I get called from print.js!');
+// }
 
 function component() {
   const element = document.createElement('div');
@@ -19,7 +20,7 @@ function component() {
   // Lodash, now imported by this script
   element.innerHTML = _.join(['Hello', 'webpack'], ' ');
   element.classList.add('hello');
-
+  
   // Add the image to our existing div.
   const myGitIcon = new Image();
   myGitIcon.src = Github;
